@@ -3,6 +3,9 @@ package ddd.leave.interfaces.assembler;
 import ddd.leave.domain.leave.entity.valueobject.Approver;
 import ddd.leave.interfaces.dto.ApproverDTO;
 
+/**
+ * 审批者组装器
+ */
 public class ApproverAssembler {
 
     public static ApproverDTO toDTO(Approver approver){

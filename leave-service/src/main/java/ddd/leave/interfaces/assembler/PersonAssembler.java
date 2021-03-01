@@ -8,6 +8,11 @@ import ddd.leave.interfaces.dto.PersonDTO;
 
 import java.text.ParseException;
 
+/**
+ * 人员转换器
+ *
+ * DTO与PO的互相转换
+ */
 public class PersonAssembler {
 
     public static PersonDTO toDTO(Person person){

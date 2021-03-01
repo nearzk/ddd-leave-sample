@@ -2,7 +2,6 @@ package ddd.leave.interfaces.facade;
 
 import ddd.leave.application.service.LeaveApplicationService;
 import ddd.leave.domain.leave.entity.Leave;
-import ddd.leave.domain.person.entity.Person;
 import ddd.leave.infrastructure.common.api.Response;
 import ddd.leave.interfaces.assembler.LeaveAssembler;
 import ddd.leave.interfaces.dto.LeaveDTO;

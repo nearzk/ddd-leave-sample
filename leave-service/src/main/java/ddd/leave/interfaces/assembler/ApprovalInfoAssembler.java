@@ -3,6 +3,9 @@ package ddd.leave.interfaces.assembler;
 import ddd.leave.domain.leave.entity.ApprovalInfo;
 import ddd.leave.interfaces.dto.ApprovalInfoDTO;
 
+/**
+ * 审核信息组装器
+ */
 public class ApprovalInfoAssembler {
 
     public static ApprovalInfo toDO(ApprovalInfoDTO dto){

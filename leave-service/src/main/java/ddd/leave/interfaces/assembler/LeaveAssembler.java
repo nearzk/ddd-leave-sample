@@ -9,6 +9,11 @@ import ddd.leave.interfaces.dto.LeaveDTO;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 请假组装器
+ *
+ * 持久化对象PO 数据传输对象DTO的互相转换
+ */
 public class LeaveAssembler {
 
     public static LeaveDTO toDTO(Leave leave){

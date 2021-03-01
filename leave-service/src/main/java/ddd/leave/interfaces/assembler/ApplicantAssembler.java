@@ -3,6 +3,9 @@ package ddd.leave.interfaces.assembler;
 import ddd.leave.domain.leave.entity.valueobject.Applicant;
 import ddd.leave.interfaces.dto.ApplicantDTO;
 
+/**
+ * 申请者组装器
+ */
 public class ApplicantAssembler {
 
     public static ApplicantDTO toDTO(Applicant applicant){
