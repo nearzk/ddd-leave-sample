@@ -12,4 +12,5 @@ public interface LeaveDao extends JpaRepository<LeavePO, String> {
     List<LeavePO> queryByApplicantId(String applicantId);
 
     List<LeavePO> queryByApproverId(String approverId);
+
 }

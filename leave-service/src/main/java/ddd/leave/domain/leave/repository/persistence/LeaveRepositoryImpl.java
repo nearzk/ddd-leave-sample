@@ -14,6 +14,9 @@ import java.util.List;
 
 /**
  * persist entity and handle event in repository
+ * 请假仓储接口实现
+ *
+ * 完成数据持久化和数据查询
  */
 @Repository
 public class LeaveRepositoryImpl implements LeaveRepositoryInterface {
