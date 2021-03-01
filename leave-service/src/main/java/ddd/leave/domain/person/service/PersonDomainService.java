@@ -11,6 +11,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
+/**
+ * 人员领域服务
+ *
+ * 注意：尽量避免调用其他聚合的领域服务 或 引用其他聚合的实体或值对象，目的：解耦
+ * 例子：findNextApprover(String currentApproverId...)
+ */
 @Service
 @Slf4j
 public class PersonDomainService {
@@ -65,6 +71,7 @@ public class PersonDomainService {
 
     /**
      * find leader with current approver, if leader level bigger then leaderMaxLevel return null, else return Approver from leader;
+     * 在应用服务组合不同聚合的领域服务时，我们可以通过 ID 或者参数来传数，如单一参数 currentApproverId。这样聚合之间就解耦了，它可以不依赖其它聚合的实体，独立完成业务逻辑
      *
      * @param currentApproverId
      * @param leaderMaxLevel

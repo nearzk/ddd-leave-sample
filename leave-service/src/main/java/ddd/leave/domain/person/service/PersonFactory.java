@@ -6,6 +6,11 @@ import ddd.leave.domain.person.repository.po.PersonPO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * 人员工厂类
+ *
+ * 用工厂模式实现复杂聚合的实体数据初始化
+ */
 @Service
 public class PersonFactory {
 

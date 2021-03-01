@@ -15,6 +15,12 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+/**
+ * 请假工厂方法
+ *
+ * 用工厂模式实现复杂聚合的实体数据初始化，实体的转换也可以在Factory中实现
+ * 实体包括PO持久化对象和DO领域对象
+ */
 @Service
 public class LeaveFactory {
 

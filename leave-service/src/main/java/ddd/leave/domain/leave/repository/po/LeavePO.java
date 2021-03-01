@@ -10,6 +10,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.*;
 
+/**
+ * 请假实体，其实是持久化对象（PO：Persistent Object）
+ */
 @Entity
 @Table(name = "Leave")
 @Data
