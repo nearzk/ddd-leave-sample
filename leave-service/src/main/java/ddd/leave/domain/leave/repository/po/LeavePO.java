@@ -22,10 +22,16 @@ public class LeavePO {
     @GenericGenerator(name="idGenerator", strategy="uuid") //这个是hibernate的注解/生成32位UUID
     @GeneratedValue(generator="idGenerator")
     String id;
+    /**
+     * Applicant值对象，把ID、Name和Type属性嵌入PO
+     */
     String applicantId;
     String applicantName;
     @Enumerated(EnumType.STRING)
     PersonType applicantType;
+    /**
+     * Approver值对象，把ID和Name属性嵌入PO
+     */
     String approverId;
     String approverName;
     @Enumerated(EnumType.STRING)

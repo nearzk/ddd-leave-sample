@@ -23,11 +23,11 @@ public class Leave {
 
     String id;
     /**
-     * 申请者
+     * 申请者，值对象
      */
     Applicant applicant;
     /**
-     * 审批者
+     * 审批者，值对象
      */
     Approver approver;
     /**
