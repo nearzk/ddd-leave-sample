@@ -8,6 +8,9 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * 请假事件实体
+ */
 @Data
 public class LeaveEvent extends DomainEvent {
 

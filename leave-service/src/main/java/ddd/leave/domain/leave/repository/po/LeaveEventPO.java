@@ -7,6 +7,11 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 领域事件的持久化对象
+ * 
+ * 领域事件和持久化对象的转换，在Factory内完成
+ */
 @Data
 @Entity
 public class LeaveEventPO {
