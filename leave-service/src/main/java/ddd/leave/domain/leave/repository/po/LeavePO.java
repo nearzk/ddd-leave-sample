@@ -14,7 +14,7 @@ import java.util.*;
  * 请假实体，其实是持久化对象（PO：Persistent Object）
  */
 @Entity
-@Table(name = "Leave")
+@Table(name = "leave")
 @Data
 public class LeavePO {
 

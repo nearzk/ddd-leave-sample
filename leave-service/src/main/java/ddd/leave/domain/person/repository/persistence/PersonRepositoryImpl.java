@@ -6,8 +6,6 @@ import ddd.leave.domain.person.repository.mapper.PersonDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 @Repository
 public class PersonRepositoryImpl implements PersonRepository {
 

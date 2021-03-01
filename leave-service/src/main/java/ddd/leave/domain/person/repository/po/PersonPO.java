@@ -15,7 +15,6 @@ public class PersonPO {
     @Id
     String personId;
     String personName;
-    String departmentId;
     @Enumerated(EnumType.STRING)
     PersonType personType;
     @Transient
