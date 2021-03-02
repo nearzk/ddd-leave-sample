@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>leave-service</artifactId>
+        <groupId>ddd</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>leave-application</artifactId>
+    <description>应用层：实现服务组合和编排，适应业务流程快速变化的需求，聚集了应用服务和时间相关的功能</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>ddd</groupId>
+            <artifactId>leave-domain</artifactId>
+        </dependency>
+    </dependencies>
+</project>
